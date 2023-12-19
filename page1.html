@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.9.8, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.9.8, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo-1.jpeg" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>tourist attractions</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/echarts.min.js"></script> 
+  <script src="assets/js/echarts.js"></script>
+<script src="assets/js/extension/bmap.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=3.0&ak=TGylcb5upyNUtRAQZyi0tUr2uqXyNeA9"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=3.0&type=webgl&ak=TGylcb5upyNUtRAQZyi0tUr2uqXyNeA9"></script>
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu1 cid-tY1rIcK4TX" once="menu" id="menu1-y">
+    
+
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://mobiri.se">
+                        <img src="assets/images/logo-1.jpeg" alt="Mobirise Website Builder" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">千年古都 常来长安</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html#header3-2">首页</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page1.html#header13-10">景点夜游</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page2.html#header14-1l">夜经济地标</a>
+                    </li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.html#features19-1o">主要夜市</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page4.html#header6-1r">关于网站</a></li></ul>
+                
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="header13 cid-tYFVQ6Z0Jz mbr-fullscreen" id="header13-10">
+
+    
+
+    
+    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(255, 255, 255);"></div>
+
+    <div class="align-center container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>长安灯璀璨，古都夜未央</strong></h1>
+                
+                <p class="mbr-text mbr-fonts-style mb-3 display-7">捕捉古城夜之美，感受古城夜之魅，品尝古城夜之味。<br>2021年，西安在景区夜游及夜间实景演艺的带动西安入围夜游目的地TOP10。
+                </p>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="map1 cid-tYG01SWrR3" id="map1-13">
+    
+    
+    
+    <div>
+        <div class="mbr-section-head mb-4">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">西安夜间旅游景点分布图</h3>
+            
+        </div>
+        <div id="chartContainer"style="width: 1000px; height: 600px; margin: 0 auto;">
+            <script type="module">    
+                import * as echarts from 'echarts';
+// 请确保在引入百度地图扩展之前已经引入百度地图 JS API 脚本并成功加载
+// https://api.map.baidu.com/api?v=3.0&ak=你申请的AK
+                import 'echarts/extension/bmap/bmap';
+                </script>
+            <script type="text/javascript">
+                var dom = document.getElementById('chartContainer');
+                console.log(dom)
+                var myChart = echarts.init(dom, null, {
+                  renderer: 'canvas',
+                  useDirtyRect: false
+                });
+                var app = {};
+                
+                var option;
+            
+                
+            const data = [
+              { name: '大雁塔', content: '大雁塔街道广场东路3号'},
+              { name: '大唐不夜城', content: '慈恩路46号' },
+              { name: '大唐芙蓉园', content: '芙蓉西路99号' },
+              { name: '西安城墙', content: '碑林区南大街2号（此处是永宁门南口）' },
+              { name: '西安钟楼', content:'西安四条大街交汇处西安地铁2号线钟楼站C出口正对面' },
+              { name: '大明宫国家遗址公园' , content: '新城区自强东路585号'},
+              { name: '曲江池遗址公园', content:'曲江池西路与曲江池北路交叉口东南角' }
+            
+            ];
+            const geoCoordMap = {
+              大雁塔: [108.970604,34.224485],
+              大唐不夜城: [108.970556,34.220781],
+              大唐芙蓉园: [108.980724,34.218949],
+              西安城墙: [108.954666,34.257907],
+              西安钟楼: [108.953509,34.265619],
+              大明宫国家遗址公园: [108.969898,34.298634],
+              曲江池遗址公园: [108.990527,34.207963]
+            
+            };
+            const convertData = function (data) {
+              var res = [];
+              for (var i = 0; i < data.length; i++) {
+                var geoCoord = geoCoordMap[data[i].name];
+                if (geoCoord) {
+                  res.push({
+                    name: data[i].name,
+                    value: geoCoord.concat(data[i].content)
+                  });
+                }
+              }
+              return res;
+            };
+            option = {
+               tooltip: {
+                trigger: 'item'
+              },
+              bmap: {
+                center: [109.003223,34.257139],
+                zoom: 13,
+                roam: true,
+                mapStyle: {
+                  styleJson: [{
+                "featureType": "land",
+                "elementType": "geometry",
+                "stylers": {
+                    "color": "#fffff9ff"
+                }
+            }, {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": {
+                    "color": "#69b0acff"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "geometry.fill",
+                "stylers": {
+                    "color": "#b5caa0ff"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#94ad79ff"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "geometry.fill",
+                "stylers": {
+                    "color": "#b5caa0ff"
+                }
+            }, {
+                "featureType": "arterial",
+                "elementType": "geometry.fill",
+                "stylers": {
+                    "color": "#d4e2c6ff"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "geometry.fill",
+                "stylers": {
+                    "color": "#d4e2c6ff"
+                }
+            }, {
+                "featureType": "provincialway",
+                "elementType": "geometry.fill",
+                "stylers": {
+                    "color": "#d4e2c6ff"
+                }
+            }, {
+                "featureType": "provincialway",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#b5caa0ff"
+                }
+            }, {
+                "featureType": "tertiaryway",
+                "elementType": "geometry.fill",
+                "stylers": {
+                    "color": "#ffffffff"
+                }
+            }, {
+                "featureType": "tertiaryway",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#b5caa0ff"
+                }
+            }, {
+                "featureType": "fourlevelway",
+                "elementType": "geometry.fill",
+                "stylers": {
+                    "color": "#ffffffff"
+                }
+            }, {
+                "featureType": "fourlevelway",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#b5caa0ff"
+                }
+            }, {
+                "featureType": "subway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "railway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "highwaysign",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "highwaysign",
+                "elementType": "labels.icon",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "nationalwaysign",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "nationalwaysign",
+                "elementType": "labels.icon",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "provincialwaysign",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "provincialwaysign",
+                "elementType": "labels.icon",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "tertiarywaysign",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "tertiarywaysign",
+                "elementType": "labels.icon",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "subwaylabel",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "subwaylabel",
+                "elementType": "labels.icon",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#94ad79ff"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#b5caa0ff"
+                }
+            }, {
+                "featureType": "arterial",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#b5caa0ff"
+                }
+            }, {
+                "featureType": "highway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "highway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "highway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "highway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "highway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "nationalway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "nationalway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "nationalway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "nationalway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "nationalway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "provincialway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "8,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "provincialway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "8,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "provincialway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "8,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "provincialway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "8,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "provincialway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "8,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "provincialway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "8,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "stylers": {
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "geometry",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "6"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "7"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "8"
+                }
+            }, {
+                "featureType": "cityhighway",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off",
+                    "curZoomRegionId": "0",
+                    "curZoomRegion": "6,9",
+                    "level": "9"
+                }
+            }, {
+                "featureType": "entertainment",
+                "elementType": "geometry",
+                "stylers": {
+                    "color": "#e4f0d7ff"
+                }
+            }, {
+                "featureType": "manmade",
+                "elementType": "geometry",
+                "stylers": {
+                    "color": "#effcf0ff"
+                }
+            }, {
+                "featureType": "education",
+                "elementType": "geometry",
+                "stylers": {
+                    "color": "#e3f7e4ff"
+                }
+            }, {
+                "featureType": "building",
+                "elementType": "geometry.stroke",
+                "stylers": {
+                    "color": "#a1cfa4ff"
+                }
+            }, {
+                "featureType": "poilabel",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "poilabel",
+                "elementType": "labels.icon",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "education",
+                "elementType": "labels.text.fill",
+                "stylers": {
+                    "color": "#7a7a7aff"
+                }
+            }, {
+                "featureType": "education",
+                "elementType": "labels.text.stroke",
+                "stylers": {
+                    "color": "#ffffffff"
+                }
+            }, {
+                "featureType": "education",
+                "elementType": "labels.text",
+                "stylers": {
+                    "fontsize": 26
+                }
+            }, {
+                "featureType": "manmade",
+                "elementType": "labels.text.fill",
+                "stylers": {
+                    "color": "#afafafff"
+                }
+            }, {
+                "featureType": "manmade",
+                "elementType": "labels.text",
+                "stylers": {
+                    "fontsize": 26
+                }
+            }, {
+                "featureType": "scenicspotslabel",
+                "elementType": "labels.text.fill",
+                "stylers": {
+                    "color": "#376b6dff"
+                }
+            }, {
+                "featureType": "scenicspots",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "off"
+                }
+            }, {
+                "featureType": "scenicspotslabel",
+                "elementType": "labels",
+                "stylers": {
+                    "visibility": "on"
+                }
+            }, {
+                "featureType": "scenicspotslabel",
+                "elementType": "labels.text.stroke",
+                "stylers": {
+                    "color": "#ffffffff",
+                    "weight": 4
+                }
+            }, {
+                "featureType": "country",
+                "elementType": "labels.text.fill",
+                "stylers": {
+                    "color": "#376b6dff"
+                }
+            }, {
+                "featureType": "country",
+                "elementType": "labels.text.stroke",
+                "stylers": {
+                    "color": "#ffffffff",
+                    "weight": 3
+                }
+            }, {
+                "featureType": "water",
+                "elementType": "labels.text.fill",
+                "stylers": {
+                    "color": "#ffffffff"
+                }
+            }, {
+                "featureType": "water",
+                "elementType": "labels.text.stroke",
+                "stylers": {
+                    "color": "#ffffff00"
+                }
+            }, {
+                "featureType": "water",
+                "elementType": "labels.text",
+                "stylers": {
+                    "fontsize": 24
+                }
+            }]
+                }
+              }
+              ,series: [
+                {
+                  type: 'effectScatter',
+                  coordinateSystem: 'bmap',
+                  data: convertData(data),
+                  symbolSize: 12,
+                  encode: {
+                    label: 2
+                  },
+                  showEffectOn: 'render',
+                  rippleEffect: {
+                    brushType: 'stroke'
+                  },
+                  label: {
+                    formatter: '{b}',
+                    position:'right',
+                    show: true
+                  },
+                  itemStyle: {
+                    shadowBlur: 30,
+                    shadowColor: '#333'
+                  },
+                  emphasis: {
+                    scale: true,
+                  },
+                  zlevel: 1
+                }
+              ]
+            };
+            console.log(option)
+                //if (option && typeof option === 'object') {
+            myChart.setOption(option);
+                //}
+            
+                // window.addEventListener('resize', myChart.resize);
+              </script>
+            <!-- <iframe frameborder="0" style="border:0" src="https://echarts.apache.org/examples/zh/editor.html?c=map-bin&amp;code=MYewdgzgLgBAJgQygmBeGBtAUDGBvGMBAWwFMAuGAckHJNQQbTAVDSoBoZQwpSPLbHB1CMDKCYH89QFzqgHDlA97EBmQO_KVAL7Mc-QiQrUagBFVAsHKAcTUBz6izbhO3aoAlDQJYGEgCwA2OTEXKCRMjy2BMoMCTIYFu1I-ymUDw-gP6REgCcEY7OuK5qPKGAkdr6gJkaASZcwdSAiR6A6eaAXMqA6so0fABMMoAQ_4Am1oAgmoD0ZoAcNoCB2oAXqUWAx8qAkP9UTkpxqu7UyYD5KYA-lhkcWeRUyYDbaoCG5qWAJXKA4ja1yYAM6oCDKRWA_X7jgJteAMKAX4odgMbWgJ_agEbpvbEqbuq0gHBmgNXagL9qgG3agOoJgALqgBtFfwwViBabUQANpvoCoArwMAXPqSACsAA5EXIHvEhlRAE9mgH0bQAGNv8gZMgjM8fjwoA4OXJgHRlCTLQCTyh0xEVAEuR9ywWAAugBuLDsaAwADmpBAxxAIAATnAALIIAAOaHwynoDEoGAAjAAGZEAOgiAHYtXYtTZmFIbLqymUbDZUVz-jAtHp9OrtXrDVrEYi7ObLdatQbkRqHSrND5fG6dfrkYGbX6rRrkREbBFQ7hkmkox7EfY7L6LVbEQaIoH0zBRmNs_rEVJEVqIgmynYfRq046aO9vkTI5h3fq7BFk8im0O7Bby-Se9Wol6ygam4GIuOuZz5HyBbB2AA3UiSqAAESQKHQADMAK5gYBQACW4BgAApEMgAJTK3DbhCSmCS0gQJUYLyyinlKj6ft-N5KlqPIwJBAA88DHrqAA2XBClAAAWME3gA1Dhb54MoH5fsKorilKcBKiKYoStKcryhgz4IBgN5crqTxAbguA3qej7UeR0oEURXG_hAuryueEAYQ-hFcXJgzqExLFsU8jryTAn7Iee6j8bRcC6uwwBIE-x7KQZmQcC-wm4PIL58nJ8jKI5uC_lA56SmAP5_ny65YCA8q3ve6CybgUASsht7ypQIWhZKN5CiKko8DenDEFQTmOgARsQCrRcJwBZHuM61vWjaFs2rbtsJABeErEJQGpSGpP4gCQlBQJK2nNTl8oAMpQAAnqheXqdAQ2kAAUhA4DqjFMAAESnqQSDuaQAAqA3yqQ82UPNyEIGAcDzc182kKhZAcBtW07Qt1FkB1A3HcJ81jahkoQDdc1yfNoDIVKN3zQAxKeIMgxEIPzcJjmKO-XGLctbm_ld227QA7kge5Pd9Z2kBdUDIwDd2kA9WNw69e4fSN6kLb9_27YDg6ZVqCDABDUNYDDc3wytSObSjC0YfFGHo49J043jBO7UTD26qeN7IchpO4C9g1vZTsPqT9IB_ZKAOA5liJGQgWpsw5HOsFzS08-tfMA4LQrCwgovPeLWSS7dor3ZKA26tAkogAA1ttJ3k-9n3WXDtO6_TKYIHAJam1x0MW89VuIzb127UQgVEMhItKwtruXbbUue8T3uy_Lish6rFPh9TNPa3TC364bCDG4nNnmxrC1p6t7vzV-nBxQg1cu-dbslx7IBez7csKwXKvjWHVOa1HetwDYpBlMAdid043eWwj_dTz9KUDfbjvO9jE_F5n0-z5XC818v6tfZHTfRy3m_b7v-_Jz3bm6cB7yn9tuG8V4byj3zmLW--NT7SwrvPMe31Q5vwjsrde9Mf47z3qeSGZtOap2Prze-81QEgHAZA6BTtF5F3gWQxBPs_aB2Ds9NB9dqZax1nrA2RsTb4PZkQ76fdSH83msPW8X4BowPHrjSejCy4y2QYvDhq95LcObkDUGOjBGEJTiIkhGdxGSKgd7WRN95F33EUw32HVWGqNrivHu30sEtz4e3ARBCk6H2IdbAeIF3KoV3HnWhsCrEMJsUopBVdHGv04WvT-etdGg28V3YRcNRHGIBoEyUwSzoWLhvQgetiWFBziWrBJGi3FAw8R3PRPiMnKyyQPCA55MqFOVsUhB0Tr5kyceghu81wEQBvJleW58AYgH_r4wx_jT6SgQPLTphc4ElN6RUuu6jvojLGRMwaUyZlNN7kYgel8RajKFGAOhazT77UymdD6L9KnbLhrs8ZyFJm7WmQ09JBjMmnNPucp2lzrnhIlnchADzkJiRvOwTZzj37K3efsx63yjn_OaYCsh2c7y5wufFMFciIVkPuY8hFgyuEos-Qc9FvyD7HKASfHFSA8U0IGqCm5ESB5kphbqOF4AKVVJ2TeUZHyvkLR-WkhlmKTnzLIRQqhwAoGhI5YSrlJLxG8qeewgZwq3mir2TStFkqMWAJaafRVEDlXss5eChRWqoWPP5fC55WyXEGrFaiw59KAFH3lSYvcUjzEgvVfa6xANtVCteciw14raWmt9bMgFAaAamOkQSq5GqHWRqdXygVRLUF6pjQtalEr5pSqEbKplYiAZtI6U7Xl2aI27SjW6xFGDS1xu9XS6Vfq_HANPvWkWTbw2RNzdC2FrrdXxJLcM7txqfV9uTVi1NWdWXgHZc28dpcZ7l2YfY8p7bKWJJ4THGwccE5JsZRashyrBrAr6V025ii90yzKWwots6PWYKSfTOpXiq3muxeIoee4VXbvWW-iuH7o0_sbme9xbd6nLpvSBu2QsVlLxefBn67kABadUABKpAhR4oAJJHV2lqAuriCPEdI3igGvoIi0bhvkxWu07Coerbe8Rj64NIppvRmeJGyPgEowDGjzU6OSkI6JxjgquPMFYzJ9jpAQkAwNDx4Da6BaYbCTOnDQm8NyYY-JsAknqNscwSJ4gYmmPKdU52vaGmzoA2RDp_1g6yECePfq2zZmFMWaswtaTLngB2Yc0phaLGbMLQ4wDVjQHvPMv4wZp9qzuU9Og5l7D7qTNloTRWiGanAvyfs4pyzVGwvxdMxV6L1ynN1cS1xrzA60sYYdlh7pr7Z6CZc0Vk1JX8FleE0FyrIWavzXC0MyLE3GvMZUy1tznGFraZSx12tu0_PEpzbu_r_m51DaXWN-r5mKPTdm1w-bDWqtLec0M1rC1PObbmT59L3XDOWM1YTDZR3cMnd7Wd27F2JNXbq6D4LjnYvLbO89-ayX9G6Y-11q-kHIWToG0MoHibIdRaq6Fmb-OFv3ea_D1bzH2vvc6ztjLGPSV5p1V-4zg2F3lqlSDgnU2pMk7uxZh7K3NO7Q28j1L239Nfby71x1WOAeFfZ8VznEXueXd51z0nAvycuYR69sXW3sl06lwz2X5L5ds69Yu4HKvNdq-sxr_nMP5pxYp8LhaSPGm8fQ-unOW7zdzdV-D9XNvHcxed3DnXlO2tvZTajn3bLVXY5u4H6rweA-27Dy7yPbv5qi89yj2nC1cWbsT_75PGfU_25D2DprsPHtcN19T2Phf5rF_xd9_p36TNQ8m3b2rDua-C9d-53aHu_kF4l63jd7fpcvqiblpPmtccjb5zXon1214p6H9nkfsWm-rrj0X6ffu9stofvuxfGjl_K_T6Hyv_fq_Q8zxHp7Uf1v77lYfqfvvS-n53efkmMvJfRXYbG_cvO_dfVfJ_WvcPevTWRvGPA_FvNvE_H7fbAA72S_EVS3DnUrR_XvIPKvW_QfbXV_HPMfGVCfQ3I_H_HrOfCdM3IzArC3I1XA0bfAxrSAgfaA7fMg3fZ3D_Gtag7_BPOg7LRnOXJgjtHHEA07DgwnCHbgggmArPPgtbXPQQvjAGFA3_NAs_PaJnLAz1VgpXPA4g6Arg-QrXOvIXfgvXfPcXYQnQsQ37VtQwoAq_WQ63cw5QywnwxbUghvN_RHTQ73BaK1ahXQzvVnfwhQtPcAkgl7F_IInPew8fRwkBMBa1FVLDNRXDHvTgxQqwp3EcOAjRBHCg_tGnSfCIm1KI59cQ-fQ7KQk9TwnA0w9g2InnIghIng3aUo2w9QtIygjIy1LIyIlw9A-aJhIw2Ndo0Asw3o3wooroko5I-A4IyoldT_FvWonIjvBo1whLdwlogLLteYuQ1Ywgh_K4mAgY4fIY0IvTchcYuoyY_QttU447LwvHJQwo-IzfCvDzdY8ozYp4r_e9C-enDw2TCAlYpYgImwh4qnRAnYyfSE3bFnZg24vwhEsnJEnfdQvPdIg3AeDE6Er4_IlPXEwEu_XglIuw8Elvck43GEyOak-E2kxI2AwYpLJk9E8-TEopegg7C_NkuYkwhYzovE7om4mUp3VQhk9Q7jVEoQskwUikvQ__aY_7SkhXC47w-U644nP4_Enk5EkXfk4Qlk9HMdKDZorE6QqlH4lfU02Uk04o5_Mo76BA_Xao60jU1kv_e0sUvUlg-NKUqA5YgE6pLfQIjY8gq09Uh9TU4UxohgmFWY84yUy4o0-_D024-khM_glUv05vAUlMoMrUnlE4x01o7AnMw0rkiwzk2MoE-M0EnPYkkY0k0-G0947Uz4uss4-dA034z0_MjfNsukjsn04I4Yqo8sgMys204MzHRg4c74sc10icmk6c7kxU4s9QrYtDZ4wqfcJZMAPGE3P7BfcUhDLRQGUgGwU8LUeOM1UYshHKK8uOT9NMo4nUu8sMubP9FuUgEGVmQDMspAyfUgOAc8IyHOG80UwA4Cm7UCoGUgKQU8A0Z8j83sshTKc8eWOACBIUZCjAg9f2I9NC09R8hADUVmBAF869L3Z4-UEAeWPNCigwyQzcwHF0ytaCtE4Qjiri6FHi7VF1QVe80cxsvHVUrQ3aOChC6fSSpnXUTgAADygCfhQWiOxPQsQyBgNAQFMtMvwv9IHhUsQqYztPXL5W0t0tg1kpqWBhSVYqoOsvgtspkrXIkOdScqzMWhMFGWqn5mbEUrCPmm_JyjgD_MOKmKkqcr0uCrcoQFPAyoyssqXIHlit_PUsnU0tIB0uCpAg4DCoirsCiueIgAKjADhQgA4qgAgFHX8tN0cpKt0pUVcowsBikANDsEyjsDgBypguELqq4EauauZ3_KStrIMqdOAO3KEocIIvEUmoauACapABaraurIctmuVjyP1PkorWuRqq_02umt2tau4vsoCs6p0rsWooSoWhOoiz6o8ulM1lRlICFigBuhsEuuZJAEvFQoOserEhSp6touqT6oGqGpGrGpErJLBo4EwIeo6uhq6peocV6uMvcpSTqz-oBpuikBBsn3RmHkKsCtxthv4u7y-o8qTNPmpsxixozJxuepcrhtcWZp0S1Bo0puEPZt1k5rcKKqCtkvKpapvHCpuhtCEVXDNi7lwGYAgHAz_HVGEnfkGi2h4HAqWmvF6kQuHhYAjlAAoggQxl6g5VSh4GygVAtvUiYkoB3CDSPGQBMlfDUwgAGmIEym1l6nlvUA1DKDUy4FAHipLV5UoDKAjgeDkikhAFRgAFEQZSBrwAB5MAHgX8Q6PcF2-SOKeUeUVCDO427IITTKTqKSZGHgD9dKdSJOriOO-DECSUHKKAYeHgPATKeQYu9SDi0ZHOGYOKB2KAIe-SFO1GdqTqUgROtTFKXGfqcaEtKSOOVOgAIS0iShgCkC1DG03rgFTvFB1h4H6qkCkGbvklbtwFxnlAwgQFGQgA3qMmGhgA6i6iXojmqg4wanZlwFXHXCAA" allowfullscreen="">
+            </iframe> -->
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image1 cid-tYGDQUylf5" id="image1-1c">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/1.gif" alt="Mobirise Website Builder">
+                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4"></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>大雁塔</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">夜幕四合，华灯初上<br>大雁塔北广场音乐喷泉<br>璀璨斑斓的灯光秀照亮了夜空<br>历经沧桑的大雁塔<br>如今依旧见证着人潮熙攘的盛世繁荣<br><br>路线指南：<br>地铁三号线B、C口，四号线大雁塔站C口出即可到达</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image2 cid-tYGDR7BbHF" id="image2-1d">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/2.gif" alt="Mobirise Website Builder">
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4"></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
+                        <strong>大唐不夜城</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">以盛唐文化为主题的大唐不夜城步行街，入选全国首批示范步行街<br>这是一条具有唐风唐韵的雕塑景观街区<br>以唐文化为主线，结合现代流行元素<br>已成为西安“夜游经济”主阵地和潮流时尚新地标<br><br>路线指南：<br>地铁三号线大雁塔站步行到达，地铁四号线大雁塔站或大唐芙蓉园站出步行到达，也可乘坐公交车前往<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image1 cid-tYGFRbTTiV" id="image1-1e">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/3.gif" alt="Mobirise Website Builder">
+                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4"></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
+                        <strong>西安城墙</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">夜色爬上树梢<br>西安城墙13.74公里的灯光<br>犹如一条闪亮的丝带<br>系在十三朝古都西安的历史文脉之上<br>精彩绝伦的演出与千年城垣交相辉映<br>将千年城墙一砖一瓦化作气势恢宏的长安城<br><br>路线指南：<br>地铁二号线永宁门D1、D2、A1、A2均可到达<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image2 cid-tYGFRTz9Wp" id="image2-1f">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/0.gif" alt="Mobirise Website Builder">
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4"></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">
+                        <strong>大唐芙蓉园</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">以西安作为“盛唐之都”的辉煌历史为主线
+<br>集盛唐历史景观精华为一体<br>通过古风唐韵的建筑风貌<br>丰富多彩的盛唐文化演艺及现代高科技手段的完美融合<br>对唐代的灿烂文化进行了传承弘扬和辉煌再现<br><br>路线指南：<br>地铁四号线大唐芙蓉园D口出即可到达<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="slider4 mbr-embla cid-tYGJ8WC9qj" id="slider4-1i">
+    
+    
+    <div class="position-relative text-center">
+        <div class="mbr-section-head">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"></h4>
+            
+        </div>
+        <div class="embla mt-4" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-auto-play-interval="5">
+            <div class="embla__viewport container">
+                <div class="embla__container">
+                    <div class="embla__slide slider-image item active" style="margin-left: 2rem; margin-right: 2rem;">
+                        <div class="slide-content">
+                            <div class="item-wrapper">
+                                <div class="item-img">
+                                    <img src="assets/images/大明宫遗址.jpg" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1">
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <h5 class="item-title mbr-fonts-style display-5"><strong>大明宫遗址公园</strong></h5>
+                                
+                                <p class="mbr-text mbr-fonts-style mt-3 display-7">走入宫门，好似恍然间闯入了大唐梦境<br>一股千年古迹的浩然之气萦绕心头<br>激荡着澎湃心潮，吸引着人们去探索<br>去唐朝遗址中追寻唐风古韵</p>
+                            </div>
+                            
+                        </div>
+                    </div><div class="embla__slide slider-image item" style="margin-left: 2rem; margin-right: 2rem;">
+                        <div class="slide-content">
+                            <div class="item-wrapper">
+                                <div class="item-img">
+                                    <img src="assets/images/-1000x562.jpg" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1">
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <h5 class="item-title mbr-fonts-style display-5"><strong>钟楼</strong></h5>
+                                
+                                <p class="mbr-text mbr-fonts-style mt-3 display-7">钟声鼓声朝夕鸣，六百多年岁月变迁<br>朝迎日出，暮送夕阳<br>一同唱响古老智慧的乐章<br><br>
+<br></p>
+                            </div>
+                            
+                        </div>
+                    </div><div class="embla__slide slider-image item" style="margin-left: 2rem; margin-right: 2rem;">
+                        <div class="slide-content">
+                            <div class="item-wrapper">
+                                <div class="item-img">
+                                    <img src="assets/images/-964x631.png" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2">
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <h5 class="item-title mbr-fonts-style display-5"><strong>曲江池遗址公园</strong></h5>
+                                
+                                <p class="mbr-text mbr-fonts-style mt-3 display-7">这个源自秦汉恢弘于隋唐的一池曲水<br>夜幕之下，霓虹之上<br>焕发出别样的精彩<br>湖边的灯光，湖面上的倒影<br>就像五颜六色的焰火洒落人间
+<br>
+<br></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            <button class="embla__button embla__button--prev">
+                <span class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont" aria-hidden="true"></span>
+                <span class="sr-only visually-hidden visually-hidden">Previous</span>
+            </button>
+            <button class="embla__button embla__button--next">
+                <span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont" aria-hidden="true"></span>
+                <span class="sr-only visually-hidden visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="footer3 cid-tYFPX4J0Ej" once="footers" id="footer3-z">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7"><a href="index.html#top" class="text-black">其他网站链接</a><br></li><li class="foot-menu-item mbr-fonts-style display-7"><a class="text-black text-primary" href="http://whhlyt.shaanxi.gov.cn/" target="_blank">陕西省文化旅游厅</a></li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-black text-primary" href="http://wlj.xa.gov.cn/" target="_blank">西安市文化和旅游局</a></li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-black text-primary" href="http://xasswj.xa.gov.cn/" target="_blank">西安市商务局</a></li></ul>
+            </div>
+            
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">© Copyright 2025 Mobirise - All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/3119296" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/html-builder.html">HTML Maker</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/embla/embla.min.js"></script>  <script src="assets/embla/script.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+</html>
